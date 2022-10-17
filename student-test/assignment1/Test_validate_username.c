@@ -18,5 +18,6 @@ void test_validate_my_username()
      * TODO: Replace the line below with your code here as described above to verify your /conf/username.txt 
      * config file and my_username() functions are setup properly
      */
-    TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
+    TEST_ASSERT_TRUE_MESSAGE(this_function_returns_true(),"The function should return true");
+    TEST_ASSERT_FALSE_MESSAGE(this_function_returns_false(),"The function should have returned false");
 }
